@@ -1,2 +1,1 @@
-# Git
 Setup Version Control
