@@ -1,0 +1,6 @@
+# Backend Environment Variables
+MONGO_URI=mongodb://localhost:27017/ecommerce
+JWT_SECRET=YOUR_SECRET_KEY
+
+# Frontend Environment Variables
+REACT_APP_API_URL=http://localhost:5000/api
