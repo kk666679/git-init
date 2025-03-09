@@ -1,0 +1,14 @@
+{
+    "name": "My Development Container",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "dbaeumer.vscode-eslint"
+    ],
+    "forwardPorts": [3000, 8000],
+    "postCreateCommand": "poetry install || npm install"
+}
